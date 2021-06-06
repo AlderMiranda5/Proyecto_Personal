@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body style="background-color: rgb(70, 160, 67);">
+    <form action>
+        <fieldset>
+            <h2>FORMULARIO DE CONTACTO</h2>
+            <label for="nombre">Nombres:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <br><br>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" name="apellido" id="apellido" required>
+            <br><br>
+            <label for="genero">Género:</label><br>
+            <input type="radio" name="genero" id="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="femenino">
+            <label for="femenino">Femenino</label>
+            <br><br>
+            <label for="nacimiento">Ingrese fecha de nacimiento:</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+            <br><br>
+            <label for="edad">Ingrese su edad:</label>
+            <input type="number" name="edad" id="edad" min="1">
+            <br><br>
+            <label for="celular">Número de celular:</label>
+            <input type="number" name="celular" id="celular">
+            <br><br>
+            <label for="email">G-mail:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" name="contraseña" id="contraseña">
+            <br><br>
+            <label for="programas">Lenguajes de Programación</label><br>
+            <input type="checkbox" name="programas" id="c++">
+            <label for="c++">C++</label><br>
+            <input type="checkbox" name="programas" id="java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" name="programas" id="python">
+            <label for="pyhton">Python</label><br>
+            <input type="checkbox" name="programas" id="kotlin">
+            <label for="kotlin">Kotlin</label><br>
+            <input type="checkbox" name="programas" id="php">
+            <label for="php">PHP</label>
+            <br><br>
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Borrar datos">
+            
+        </fieldset>
+    </form>
+    <br><br>
+    <a href="tablas.html">Ir a tablas...</a>
+</body>
+</html>
